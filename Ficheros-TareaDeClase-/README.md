@@ -5,7 +5,8 @@ Ejercicios para trabajar con ficheros de texto en Java (`File`, `FileReader`, `F
 ## Paquete `ejerciciosficheros`
 | Clase | Qué hace |
 |---|---|
-| `File00` / `File01` | Leer un fichero carácter a carácter y mostrarlo |
+| `File00` | Leer `datos.txt` carácter a carácter y mostrarlo |
+| `File01` | Lo mismo pero el nombre del fichero se pasa como argumento |
 | `File02` | Leer un fichero línea a línea y contar líneas y caracteres |
 | `File03` | Pide el nombre del fichero y lo muestra |
 | `File04` | Copiar un fichero carácter a carácter |
@@ -18,7 +19,7 @@ Ejercicios para trabajar con ficheros de texto en Java (`File`, `FileReader`, `F
 |---|---|
 | `Ejemplo01` | Información de un fichero o directorio |
 | `Eje02` | Copia un fichero en otro carácter a carácter |
-| `Eje03` | Leer números enteros de un fichero |
+| `Eje03` | Lee los números enteros de `datos.txt` y los guarda sumándoles 1 en `datosmas1.txt` |
 | `ContarLineas` | Cuenta las líneas de todos los ficheros de un directorio |
 | `ContarLineasRecursiva` | Lo mismo pero entrando también en los subdirectorios (recursivo) |
 
